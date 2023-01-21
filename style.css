@@ -4,21 +4,46 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-
 .container{
-    width: 1090;
+    width: 1090px;
     margin: 0 auto;
 }
+
+/* Header Section Start Here */
 
 .header-section{
     background-image: url(images/header-bg.cae8e6c5d1e7e4865435.png);
     background-repeat: no-repeat;
-    align-items: center;
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
     height: 100vh;
-    width: 100%;
-
 }
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 7rem;
+}
+.header-title{
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 91px;
+    color: #ffffff;
+    margin-bottom: 2rem;
+}
+.header-desc{
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-bottom: 2rem;
+}
+.header-btn{
+    display: flex;
+    gap: 10px;
+}
+.header-image img{
+    height: 560px;
+}
+
+/* Header Section End Here */
